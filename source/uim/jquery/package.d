@@ -1,9 +1,12 @@
-module uim.jqueryjquery;
+module uim.jquery;
 
 public import uim.jquery.component;
 
-string documentReady(string content) {
+string jqDocumentReady(string content = null) {
     return "$(document).ready(function(){"~content~"});";
 }
 
-unittest {}
+unittest {
+    assert(jqDocumentReady == "$(document).ready(function(){});");
+    assert(jqDocumentReady("test") == "$(document).ready(function(){test});");
+}
