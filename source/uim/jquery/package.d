@@ -1,7 +1,12 @@
 module uim.jquery;
 
-public import uim.jquery.component;
+public import uim.javascript;
 
+public import uim.jquery.jq;
+
+/*
+Start of jQuery when the document is "ready." 
+*/
 string jqDocumentReady(string content = null) {
     return "$(document).ready(function(){"~content~"});";
 }
