@@ -2,6 +2,7 @@ module uim.jquery.jq;
 
 import uim.jquery; 
 
+/*
 class DJQ : DJS {
     this() { super(); }
 	this(string[string] someParameters) { this(); _parameters = someParameters; }
@@ -100,4 +101,4 @@ auto JQ() { return new DJQ(); }
 auto JQ(string[string] someParameters) { return new DJQ(someParameters); }
 
 unittest {
-}
+}*/
