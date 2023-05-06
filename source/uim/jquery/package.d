@@ -1,8 +1,6 @@
 module uim.jquery;
 
-public import std.stdio;
-public import std.string;
-public import std.uuid;
+mixin(ImportPhobos!());
 
 // external packages
 public import vibe.d;
