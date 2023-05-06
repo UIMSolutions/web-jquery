@@ -1,1 +1,1 @@
-
+module uim.jquery.helpers;
