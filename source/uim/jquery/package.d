@@ -10,7 +10,7 @@ public import vibe.d;
 // uim packages
 public import uim.core;
 public import uim.css;
-public import uim.javascript;
+public import langs.javascript;
 public import uim.json;
 public import uim.oop;
 
