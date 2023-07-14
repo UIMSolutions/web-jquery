@@ -1,29 +1,25 @@
 {
-  "name": "uim-ldap",
-  "description": "D library for LDAP projects",
+  "name": "uim-jquery",
   "authors": ["UI Manufaktur Team"],
   "copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",
   "license": "Apache-2.0",
   "targetType": "library",
   "dependencies": {
-    "vibe-d": "~>0.9.5"
+  "vibe-d": "~>0.9.5"
   },
   "sourcePaths": [
     "../uim-core",
     "../uim-oop",
     "../uim-css",
     "../uim-javascript",
-    "../uim-jquery",
-    "../uim-json",		
-    "./"
+    "../uim-json",    "./"
   ],
   "importPaths": [
     "../uim-core",
     "../uim-oop",
     "../uim-css",
+    "../uim-json",
     "../uim-javascript",
-    "../uim-jquery",
-    "../uim-json",		
     "./"
   ]
 }
